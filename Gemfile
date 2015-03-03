@@ -47,7 +47,7 @@ group :job do
   gem 'sneakers', '0.1.1.pre', require: false
   gem 'que', require: false
   gem 'backburner', require: false
-  gem 'qu-rails', github: "bkeepers/qu", branch: "master", require: false
+  gem 'qu-rails', github: 'bkeepers/qu', branch: 'master', require: false
   gem 'qu-redis', require: false
   # gem 'delayed_job_active_record', require: false
   gem 'sequel', require: false
